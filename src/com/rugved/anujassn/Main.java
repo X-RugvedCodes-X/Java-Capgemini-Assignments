@@ -80,8 +80,32 @@ public class Main {
     // int[] intersectedArray = Assn11.intersectionOfArrays(arr6, arr7);
     // printArray(intersectedArray);
 
-    int[] arr8 = {1, 2, 3, 2, 1, 4};
-    Assn12.removeDuplicates(arr8);
+    // int[] arr8 = {1, 2, 3, 2, 1, 4};
+    // Assn12.removeDuplicates(arr8);
+
+    // String str = "ABCDCBA";
+    // System.out.println(Assn13.isPalindrome(str) ? "Palindrome" : "Not a Palindrome");
+
+    // String sentence = "My Name is Rugved";
+    // Assn14.sentenceReverse(sentence);
+
+    // String str = "ABCDCBA";
+    // Assn15.countVowelsAndConsonants(str);
+
+    // String str1 = "listen", str2 = "silent";
+    // System.out.println(Assn16.checkAnagram(str1, str2) ? "Anagram" : "Not an Anagram");
+
+    // String str = "ABCDCBA";
+    // Assn17.findFirstNonRepeatingCharacter(str);
+
+    // String str = "programming";
+    // System.out.println("String after Removing Duplicates: " + Assn18.removeDuplicates(str));
+
+    // String[] arr = {"flower", "flow", "flight"};
+    // Assn19.longestCommonPrefix(arr);
+
+    // String str = "This is is a test test test";
+    // System.out.println(Assn20.countDuplicateWords(str));
 
   }
 
