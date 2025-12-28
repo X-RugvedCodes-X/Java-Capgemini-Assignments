@@ -1,4 +1,4 @@
-package com.rugved.anujassn.input;
+package com.rugved.anujassn;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -67,5 +67,5 @@ public class Input {
     }
     return null;
   }
-  
+
 };

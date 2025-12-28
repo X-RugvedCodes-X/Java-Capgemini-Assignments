@@ -58,12 +58,12 @@ REM Create output directory
 REM -------------------------------
 if not exist "%OUT_DIR%" mkdir "%OUT_DIR%"
 
-REM -------------------------------
-REM Compile ALL sources under src
-REM -------------------------------
-echo Compiling...
-echo ^> javac -g -cp "%OUT_DIR%" -d "%OUT_DIR%" %SRC_ROOT%\**\*.java
-javac -g -cp "%OUT_DIR%" -d "%OUT_DIR%" %SRC_ROOT%\**\*.java
+REM ------------------------------- 
+REM Compile ONLY that package 
+REM ------------------------------- 
+echo Compiling... 
+echo ^> javac -g -cp "%OUT_DIR%" -d "%OUT_DIR%" %PKG_SRC_DIR%\*.java 
+javac -g -cp "%OUT_DIR%" -d "%OUT_DIR%" %PKG_SRC_DIR%\*.java 
 if errorlevel 1 exit /b 1
 
 REM -------------------------------

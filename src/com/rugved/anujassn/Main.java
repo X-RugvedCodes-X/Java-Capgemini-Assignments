@@ -1,7 +1,5 @@
 package com.rugved.anujassn;
 
-import com.rugved.anujassn.input.Input;
-
 public class Main {
   public static void main(String[] args) {
 
