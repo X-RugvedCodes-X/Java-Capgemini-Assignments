@@ -24,3 +24,7 @@ cd Java-Capgemini-Assignments
 ```text
 Ctrl + Shift + P -> Java: Configure ClassPath -> Set the 'src' and 'out' Directories Appropriately
 ```
+
+### Useful Extensions
+- **[Colorful Comments](https://marketplace.visualstudio.com/items?itemName=ParthR2031.colorful-comments)**
+- **[Extension Pack for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)**

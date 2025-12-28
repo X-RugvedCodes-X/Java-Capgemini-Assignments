@@ -45,7 +45,7 @@ public class Main {
     // int[] arr8 = {1, 2, 3, 2, 1, 4};
     // Assn12.removeDuplicates(arr8);
 
-    // String str = Input.inputString();
+    //* String str = Input.inputString();
     // String str = "ABCDCBA";
     // System.out.println(Assn13.isPalindrome(str) ? "Palindrome" : "Not a Palindrome");
 
