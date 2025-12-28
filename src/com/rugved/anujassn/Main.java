@@ -9,7 +9,7 @@ public class Main {
     // int[] arr2 = {1, 4, 9};
     // int[] arr3 = {2, 3, 10, 12, 15};
 
-    // Assn1.minmaxElementInAnArray(arr);
+    Assn1.minmaxElementInAnArray(arr);
 
     // Assn2.reverseAnArray(arr1);
     // printArray(arr1);
@@ -45,7 +45,7 @@ public class Main {
     // int[] arr8 = {1, 2, 3, 2, 1, 4};
     // Assn12.removeDuplicates(arr8);
 
-    String str = Input.inputString();
+    // String str = Input.inputString();
     // String str = "ABCDCBA";
     // System.out.println(Assn13.isPalindrome(str) ? "Palindrome" : "Not a Palindrome");
 
