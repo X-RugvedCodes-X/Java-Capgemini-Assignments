@@ -1,58 +1,22 @@
 package com.rugved.anujassn;
 
-import java.util.InputMismatchException;
-import java.util.Scanner;
+import com.rugved.anujassn.input.Input;
 
 public class Main {
   public static void main(String[] args) {
 
-    // int[] arr  = null;
-    // Scanner sc = null;
-    // try {
-    //   sc = new Scanner(System.in);
-    //   System.out.print("Enter Array Elements: ");
+    int[] arr = Input.inputIntegerArray();
 
-    //   String input = sc.nextLine().trim();
-    //   if (input.isEmpty()) {
-    //     throw new InputMismatchException("Empty input is not allowed");
-    //   }
-    //   input = input.replaceAll("[\\[\\]\\{\\}]", "");
-    //   input = input.replace(",", " ");
-    //   String[] tokens = input.trim().split("\\s+");
+    // int[] arr1 = { 3, 0, 8, 10, 0, -2, 55, 0, 90, 32};
+    // int[] arr2 = {1, 4, 9};
+    // int[] arr3 = {2, 3, 10, 12, 15};
 
-    //   if (tokens.length == 0) {
-    //     throw new InputMismatchException("No numbers provided");
-    //   }
-    //   arr = new int[tokens.length];
-    //   for (int i = 0; i < tokens.length; i++) {
-    //     arr[i] = Integer.parseInt(tokens[i]);
-    //   }
-    //   System.out.print("Array elements: ");
-    //   printArray(arr);
-
-    // } catch (NumberFormatException e) {
-    //   System.out.println("Invalid input! Please enter only integers.");
-    // } catch (InputMismatchException e) {
-    //   System.out.println(e.getMessage());
-    // } catch (Exception e) {
-    //   System.out.println("Unexpected error occurred.");
-    // } finally {
-    //   if (sc != null) {
-    //     sc.close();
-    //   }
-    // }
-
-
-    int[] arr1 = { 3, 0, 8, 10, 0, -2, 55, 0, 90, 32};
-    int[] arr2 = {1, 4, 9};
-    int[] arr3 = {2, 3, 10, 12, 15};
-    int k = 3;
-
-    // Assn1.minmaxElementInAnArray(arr1);
+    // Assn1.minmaxElementInAnArray(arr);
 
     // Assn2.reverseAnArray(arr1);
     // printArray(arr1);
 
+    // int k = 3;
     // Assn3.rotateArrayBykPlaces(arr1, k);
     // printArray(arr1);
 
@@ -83,6 +47,7 @@ public class Main {
     // int[] arr8 = {1, 2, 3, 2, 1, 4};
     // Assn12.removeDuplicates(arr8);
 
+    String str = Input.inputString();
     // String str = "ABCDCBA";
     // System.out.println(Assn13.isPalindrome(str) ? "Palindrome" : "Not a Palindrome");
 
@@ -107,8 +72,16 @@ public class Main {
     // String str = "This is is a test test test";
     // System.out.println(Assn20.countDuplicateWords(str));
 
+    // System.out.println("Character Frequencies are: " + Assn21.countCharactersUsingHashMap(str));
+
+    // Assn22.removeDuplicatesUsingHashSet(arr);
+
+    // System.out.println(Assn23.checkUniqueCharactersUsingHashSet(str) ? "All Unique" : "No Unique");
+
+    // System.out.println("Missing Number: " + Assn24.missingNumber(arr));
   }
 
+  @SuppressWarnings("unused")
   private static void printArray(int[] arr) {
     for (int x : arr) 
       System.out.print(x + " ");
